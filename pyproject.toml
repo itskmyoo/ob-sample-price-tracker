@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "ob-sample-price-tracker"
+version = "0.1.0"
+description = ""
+authors = ["itskmyoo <itskmyoo@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+python-telegram-bot = "^21.4"
+beautifulsoup4 = "^4.12.3"
+requests = "^2.32.3"
+schedule = "^1.2.2"
+asyncio = "^3.4.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
